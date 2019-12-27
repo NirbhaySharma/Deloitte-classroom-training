@@ -1,0 +1,74 @@
+<html>
+		<head> 
+			<title> this is title 3</title>
+		</head>
+		<body bgcolor="silver"> this is the page 
+				
+				<p> this is a paragraph </p>
+				<table border="2" size="100" cellpadding="5" cellspacing="5">
+						<caption><h1><font color="blue">Sample table 1 </font><h1></caption>
+						<tr> 
+							<th>employee code</th>
+							<th>employee name</th>
+							<th>employee sal</th>
+						</tr>
+						<tr> <td>1002</td> <td>Deloitte</td><td>41677</td></tr>
+						<tr> <td>_</td> <td></td><td></td></tr>
+						<tr> <td>1004</td> <td>Deloitte</td><td>41677</td></tr>
+						<tr> <td>1005</td> <td>Deloitte</td><td>41677</td></tr>
+				</table>
+				
+				<table border="2" size="100" cellpadding="5" cellspacing="5">
+						<caption><h1><font color="blue">Sample table 2 </font><h1></caption>
+						<tr> 
+							<th rowspan="2">student name</th>
+							<th colspan="3">subject marks</th>
+							<th rowspan="2">total column</th>
+						</tr>
+						<tr> <th>sub-1</th> <th>sub-2</th><th>sub-3</th></tr>
+						<tr> <td>name</td> <td>100</td> <td>95</td><td>77</td><td>4</td></tr>
+						<tr> <td>name1</td> <td>90</td> <td>95</td><td>87</td><td>4</td></tr>
+						<tr> <td>name2</td> <td>100</td> <td>98</td><td>97</td><td>4</td></tr>
+						
+						</table>
+						
+			<form action="htex2.html" method="post"><!--we can use "get" also-->
+				Enter name <input type="text" name= "empname" value ="yourname"readonly="readonly"> </br>
+				Enter password <input type="password" name= "emppass"> </br>
+				Enter exp <textarea rows="6" cols="60" name="exp" value="please enter your exp"></textarea><br>
+				Enter technologies <input type="checkbox" name= "tech" value ="java">java
+									<input type="checkbox" name= "tech" value ="oracle">oracle 
+									<input type="checkbox" name= "tech" value ="spring">spring 
+									<br>
+				Marital status <input type="radio" name= "status" value ="married">married
+								<input type="radio" name= "status" value ="single">single 
+								<input type="radio" name= "status" value ="divorced">divorced<br>
+				select month <select name="month">
+						<option value="jan">January</option>
+						<option value="feb">february</option>
+						<option value="mar">march</option>
+				<input type="button" value ="hello">
+				<input type="submit" >
+				
+				Enter name <input type="text" name="empname" required><br>
+				Select color: <input type="color" name="colour"> <br>
+				Enter date: <input type="date" name="bdate" required> <br>
+				Enter Date-time <input type="datetime-local" name="datetime"><br>
+				Enter month&year <input type="month" name="monthyear"> <br>
+				Enter week <input type="week" name="wk"><br>
+				Enter email <input type="email" name="mailid"> <br>
+				Enter code(5-10) 
+				<input type="number" name="code" min="5" max="10"> <br>
+				Select cost range 500
+				<input type="range" name="cost" min="500" max="2000">2000<br>
+					Select city <input list="cities" name="city"> 
+					<datalist id="cities">
+					<option value="hyd">Hyderabad</option>
+					<option value="bglr">Bangalore</option>
+					<option value="del">Delhi</option>
+					</datalist> <br>
+				<input type="submit">
+			<!--	<input type="submit" -->
+			</form>	
+		</body><!-- Or you can comment out a large number of lines. -->
+</html>
