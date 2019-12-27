@@ -1,5 +1,5 @@
 # Deloitte-classroom-training
-  FOR MY SQl EXERCISE
+  For my SQl EXERCISE
   download the files
   open sql ++
   run 
