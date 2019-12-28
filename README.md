@@ -7,4 +7,4 @@
    
   all the tables will be created and the queries will be executed.
   
- for java package files are uploaded
+ For java package files are uploaded
