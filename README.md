@@ -8,4 +8,4 @@
    
   all the tables will be created and the queries will be executed.
   
- For java package files are uploaded
+ For java package files are uploaded // please chnage the package name to all lower case to follow standards 
